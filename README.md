@@ -5,9 +5,17 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fastexcel-feeds
 
 Home: https://github.com/ToucanToco/fastexcel
 
-Package license: MIT
+Package license: [MIT](https://github.com/ToucanToco/fastexcel/blob/main/LICENSE)
 
-Summary: A fast excel file reader for Python, written in Rust.
+Summary: A Python wrapper around calamine
+
+Development: https://github.com/ToucanToco/fastexcel
+
+Documentation: https://fastexcel.toucantoco.dev
+
+A fast excel file reader for Python, written in Rust.
+Based on calamine and Apache Arrow.
+
 
 Current build status
 ====================
