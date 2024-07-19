@@ -1,5 +1,5 @@
 {% set name = "fastexcel" %}
-{% set version = "0.10.4" %}
+{% set version = "0.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,13 @@ package:
 
 source:
   url: https://github.com/ToucanToco/fastexcel/archive/v{{ version }}.tar.gz
-  sha256: 89944eb0a6aa278dfc19251b56934327ec6f1b4046d0ae722ff8658a5b2e5487
+  sha256: 66eaf3e86446c352480c6829f70678ffcd54dc71e06907bee092a7e91dbf2e4d
 
 build:
   script:
     - {{ PYTHON }} -m pip install . -vv
     - cargo-bundle-licenses --format yaml --output THIRDPARTY.yml
-  number: 3
+  number: 0
 
 requirements:
   build:
