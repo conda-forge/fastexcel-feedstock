@@ -1,5 +1,5 @@
 {% set name = "fastexcel" %}
-{% set version = "0.17.2" %}
+{% set version = "0.18.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ToucanToco/fastexcel/archive/v{{ version }}.tar.gz
-  sha256: cd240d5ffeb1e49c1a992e8acd4aacae273a97df0e16ca867a79ce5e80caef86
+  sha256: 92b911ef38c152b013b0f60b03c075b9fdb7b8882faa82cf29b6bd6d50c4a47f
 
 build:
   script:
