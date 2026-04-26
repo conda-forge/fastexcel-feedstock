@@ -1,5 +1,5 @@
 {% set name = "fastexcel" %}
-{% set version = "0.19.0" %}
+{% set version = "0.20.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ToucanToco/fastexcel/archive/v{{ version }}.tar.gz
-  sha256: c72310305430b2350ba68c6a408b5f813078a3d07b532c05bd7e2fc695f1df41
+  sha256: 29e0ed76eaa6f83c50a604303a0a807800a9ae281145bd2831e87bfc72b72980
 
 build:
   script:
@@ -34,7 +34,7 @@ requirements:
   run_constrained:
     - pyarrow >=8.0.0
     - pandas >=1.4.4
-    - polars >=0.16.14
+    - polars >=1
 
 test:
   imports:
